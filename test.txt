@@ -1,0 +1,138 @@
+<section class="mt-24" id="habilidades">
+      <h3 class="text-3xl font-bold text-center">Habilidades</h3>
+
+      <hr class="border-gray-700 mt-2">
+      <div class="fade-in mt-6 visible">
+        <h4 class="text-xl font-bold mb-6">Machine Learning</h4>
+        <div class="grid grid-cols-3 md:grid-cols-6 gap-4">
+          <div class="skill-card">
+            <i class="fab fa-python text-4xl text-yellow-500"></i>
+            <h5>Python</h5>
+            <p>Linguagem principal para ML</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-brain text-4xl text-purple-500"></i>
+            <h5>Scikit-learn</h5>
+            <p>Modelos clássicos de ML</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-database text-4xl text-green-500"></i>
+            <h5>Pandas</h5>
+            <p>Manipulação de dados</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-chart-line text-4xl text-blue-500"></i>
+            <h5>Matplotlib</h5>
+            <p>Visualização de dados</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-robot text-4xl text-pink-500"></i>
+            <h5>NLP</h5>
+            <p>Processamento de linguagem natural</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-network-wired text-4xl text-orange-400"></i>
+            <h5>Jupyter Notebook</h5>
+            <p>Experimentos e protótipos</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+        <div class="fade-in visible">
+          <h4 class="text-xl font-bold mb-6">Front-end</h4>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="skill-card">
+              <i class="fab fa-react text-4xl text-blue-400"></i>
+              <h5>React</h5>
+              <p>Desenvolvimento de SPAs e componentes reutilizáveis</p>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-react text-4xl text-cyan-400"></i>
+              <h5>React Native</h5>
+              <p>Desenvolvimento mobile multiplataforma</p>
+            </div>
+            <div class="skill-card">
+              <div class="flex gap-2">
+                <i class="fab fa-html5 text-4xl text-orange-500"></i>
+                <i class="fab fa-css3-alt text-4xl text-blue-500"></i>
+              </div>
+              <h5>HTML &amp; CSS</h5>
+              <p>Layouts responsivos e estilização moderna</p>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-js text-4xl text-yellow-400"></i>
+              <h5>JavaScript</h5>
+              <p>ES6+, APIs, Async/Await</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-in visible">
+          <h4 class="text-xl font-bold mb-6">Back-end</h4>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="skill-card">
+              <i class="fab fa-java text-4xl text-red-500"></i>
+              <h5>Java</h5>
+              <p>POO, Collections, APIs</p>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-leaf text-4xl text-green-500"></i>
+              <h5>Spring</h5>
+              <p>Spring Boot, MVC, JPA, Swagger, RabbitMQ, Kafka</p>
+            </div>
+            <div class="skill-card">
+              <i class="fab fa-python text-4xl text-yellow-300"></i>
+              <h5>Python</h5>
+              <p>Automação e desenvolvimento backend</p>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-database text-4xl text-blue-600"></i>
+              <h5>MySQL</h5>
+              <p>Queries e modelagem de dados</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="fade-in mt-6 visible">
+        <h4 class="text-xl font-bold mb-6">Tecnologias</h4>
+        <div class="grid grid-cols-3 md:grid-cols-6 gap-4">
+          <div class="skill-card">
+            <i class="fab fa-linux text-4xl text-red-500"></i>
+            <h5>Linux</h5>
+            <p>Arch Linux, Hyprland</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-git-alt text-4xl text-orange-500"></i>
+            <h5>Git</h5>
+            <p>Controle de versão</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-github text-4xl text-white-800"></i>
+            <h5>GitHub</h5>
+            <p>Repositórios e colaboração</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-code text-4xl text-blue-500"></i>
+            <h5>VS Code</h5>
+            <p>Editor de código</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-coffee text-4xl text-orange-600"></i>
+            <h5>IntelliJ IDEA</h5>
+            <p>IDE para desenvolvimento Java</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-rocket text-4xl text-orange-400"></i>
+            <h5>Postman</h5>
+            <p>Testes de API</p>
+          </div>
+        </div>
+      </div>
+    </section>

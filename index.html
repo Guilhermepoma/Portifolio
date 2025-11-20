@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amine_codes</title>
+    <title>Guilherme Poma</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -11,17 +11,17 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="nav-brand">Amine_codes<span class="brand-dot">.</span></div>
+            <div class="nav-brand">Guilherme_Poma<span class="brand-dot">.</span></div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active">Início</a></li>
-                <li><a href="#about" class="nav-link">Sobre</a></li>
-                <li><a href="#skills" class="nav-link">Habilidades</a></li>
-                <li><a href="#service" class="nav-link">Serviços</a></li>
-                <li><a href="#project" class="nav-link">Projetos</a></li>
-                <li><a href="#contact" class="nav-link">Contato</a></li>
+                <li><a href="#home" class="nav-link active" data-i18n="nav_home">Início</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav_about">Sobre</a></li>
+                <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Habilidades</a></li>
+                <li><a href="#service" class="nav-link" data-i18n="nav_service">Serviços</a></li>
+                <li><a href="#project" class="nav-link" data-i18n="nav_project">Projetos</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contato</a></li>
             </ul>
             <div class="nav-cta">
-                <a href="#contact" class="cta-btn">Vamos Conversar</a>
+                <a href="#contact" class="cta-btn" data-i18n="cta_talk">Vamos Conversar</a>
             </div>
             <div class="hamburger">
                 <span></span>
@@ -36,41 +36,40 @@
             <div class="container">
                 <div class="home-content">
                     <div class="home-text">
-                        <div class="greeting">👋 Olá!</div>
-                        <h1 class="hero-title">Eu sou <span class="accent">Amine</span></h1>
-                        <h2 class="hero-subtitle" id="rotating-profession">Desenvolvedor Web</h2>
-                        <p class="hero-desc">Eu sou Amine, um Desenvolvedor de Software apaixonado que gosta de entender como os sistemas funcionam —
-do circuito lógico de baixo nível às aplicações de alto nível.
-
-Com sólida experiência em Java, C e tecnologias web modernas,
-meu objetivo é criar software eficiente, confiável e escalável que combine lógica e criatividade.</p>
+                        <div class="greeting" data-i18n="home_greeting">👋 Prazer!</div>
+                        <h1 class="hero-title" data-i18n="home_title_name">Me chamo <span class="accent">Guilherme</span></h1>
+                        <h2 class="hero-subtitle" id="rotating-profession" data-i18n="home_subtitle_pt">Desenvolvedor Web</h2>
+                        <p class="hero-desc" data-i18n="home_desc">Eu sou Guilherme Poma Cercena, um Desenvolvedor de Software em formação que gosta de entender como a tecnologia funciona por completo — do código de baixo nível aos sistemas web modernos. Tenho experiência com C, C++, C#, Python e desenvolvimento web, sempre buscando criar soluções eficientes, bem estruturadas e funcionais. Sempre pronto para novos desafios.</p>
                         
                         <div class="hero-stats">
                             <div class="stat">
-                                <span class="stat-number">30+</span>
-                                <span class="stat-label">Projetos Concluídos</span>
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label" data-i18n="stat_projects_label">Projetos Concluídos</span>
                             </div>
                             <div class="stat">
                                 <span class="stat-number">2+</span>
-                                <span class="stat-label">Anos de Experiência</span>
+                                <span class="stat-label" data-i18n="stat_years_label">Anos de Experiência</span>
                             </div>
                             <div class="stat">
-                                <span class="stat-number">20+</span>
-                                <span class="stat-label">Clientes Satisfeitos</span>
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label" data-i18n="stat_clients_label">Clientes Satisfeitos</span>
                             </div>
                         </div>
 
                         <div class="hero-actions">
+
+                            <!-- Botão primário -->
                             <button class="hire-btn primary">
                                 <span>Me Contrate</span>
                                 <i class="fas fa-arrow-right"></i>
                             </button>
-                            <button class="hire-btn secondary">
-                                <i class="fas fa-download"></i>
-                                <span>Baixar CV</span>
-                            </button>
-                        </div>
 
+                            <!-- Botão secundário (link estilizado como botão) -->
+                            <a href="Guilherme_Poma_CV.pdf" download="Guilherme_Poma_CV.pdf" class="hire-btn secondary">
+                                <i class="fas fa-download"></i>
+                                <span data-i18n="btn_download_cv">Baixar Currículo</span>
+                            </a>
+                        </div>
                         <div class="social-links">
                             <a href="#" aria-label="WhatsApp" class="social-icon whatsapp">
                                 <i class="fab fa-whatsapp"></i>
@@ -92,15 +91,15 @@ meu objetivo é criar software eficiente, confiável e escalável que combine l�
                             <img src="images/img.jpg" alt="Foto de perfil de Asep" class="profile-image">
                             <div class="floating-card card-1">
                                 <i class="fas fa-code"></i>
-                                <span>Código Limpo</span>
+                                <span data-i18n="card_clean_code">Código Limpo</span>
                             </div>
                             <div class="floating-card card-2">
                                 <i class="fas fa-mobile-alt"></i>
-                                <span>Responsivo</span>
+                                <span data-i18n="card_responsive">Responsivo</span>
                             </div>
                             <div class="floating-card card-3">
                                 <i class="fas fa-rocket"></i>
-                                <span>Carregamento Rápido</span>
+                                <span data-i18n="card_fast_loading">Carregamento Rápido</span>
                             </div>
                         </div>
                     </div>
@@ -116,61 +115,60 @@ meu objetivo é criar software eficiente, confiável e escalável que combine l�
                             <img src="images/img.jpg" alt="Sobre Asep" class="about-img">
                             <div class="experience-badge">
                                 <span class="badge-number">2+</span>
-                                <span class="badge-text">Anos  
-Experiência</span>
+                                <span class="badge-text" data-i18n="stat_years_label">Anos de Experiência</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="about-text">
-                        <h2 class="section-title">Sobre Mim</h2>
+                        <h2 class="section-title" data-i18n="about_title">Sobre Mim</h2>
                         <div class="about-description">
-                            <p>Sou um desenvolvedor web apaixonado, baseado na Indonésia, com uma base sólida em tecnologias de frontend e backend. Minha jornada no desenvolvimento web começou há 3 anos, e desde então tenho aprendido e me adaptado constantemente a novas tecnologias.</p>
-                            
-                            <p>Sou especialista em criar sites e aplicações web responsivas e amigáveis ao usuário, utilizando frameworks e bibliotecas modernas. Minha abordagem combina expertise técnica com solução criativa de problemas para entregar soluções que não apenas parecem ótimas, mas também têm um desempenho excepcional.</p>
-                            
-                            <p>Quando não estou codificando, você pode me encontrar explorando novas tecnologias, contribuindo para projetos de código aberto ou compartilhando conhecimento com a comunidade de desenvolvedores através do meu blog e mídias sociais.</p>
+                            <p data-i18n="about_desc_1">Sou um desenvolvedor em formação apaixonado por tecnologia, sempre buscando entender como tudo funciona por dentro. Estudo Informática na SATC e venho explorando desde desenvolvimento web até sistemas embarcados e programação de baixo nível.</p>
+
+                            <p data-i18n="about_desc_2">Tenho experiência prática com C++, C#, Python, além de HTML, CSS e JavaScript. Gosto de criar soluções eficientes e bem estruturadas, aplicando lógica e boas práticas em projetos como o Mercado Solidário e outros trabalhos pessoais</p>
+
+                            <p data-i18n="about_desc_3">Quando não estou programando, estou aprendendo novas tecnologias, testando ideias ou aprimorando projetos que me ajudam a evoluir como desenvolvedor — sempre preparado para novos desafios.</p>
                         </div>
 
                         <div class="about-highlights">
                             <div class="highlight">
                                 <i class="fas fa-graduation-cap"></i>
                                 <div>
-                                    <h4>Educação</h4>
-                                    <p>Ciência da Computação</p>
+                                    <h4 data-i18n="about_education_title">Educação</h4>
+                                    <p data-i18n="about_education_text">Ensino Técnico Informática - Satc</p>
                                 </div>
                             </div>
                             <div class="highlight">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <div>
-                                    <h4>Localização</h4>
-                                    <p>Boudouaou,Boumerdès,Argélia</p>
+                                    <h4 data-i18n="about_location_title">Localização</h4>
+                                    <p data-i18n="about_location_text">Criciúma, Brasil</p>
                                 </div>
                             </div>
                             <div class="highlight">
                                 <i class="fas fa-briefcase"></i>
                                 <div>
-                                    <h4>Experiência</h4>
-                                    <p>2+ Anos em Desenvolvimento Web</p>
+                                    <h4 data-i18n="about_experience_title">Experiência</h4>
+                                    <p data-i18n="about_experience_text">2+ Anos em Desenvolvimento</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="about-actions">
-                            <button class="about-btn">
-                                <span>Baixar CV</span>
+                            <a href="Guilherme_Poma_CV.pdf" download="Guilherme_Poma_CV.pdf" class="about-btn">
+                                <span data-i18n="btn_download_cv">Baixar Cúrriculo</span>
                                 <i class="fas fa-download"></i>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Seção Habilidades - Mantida em Português conforme solicitação anterior -->
+        <!-- Seção <h2 class="section-title" data-i18n="skills_title">Habilidades</h2> - Mantida em Português conforme solicitação anterior -->
         <section id="skills" class="section skills">
             <div class="container">
-                <h2 class="section-title">Habilidades</h2>
+                <h2 class="section-title" data-i18n="skills_title">Habilidades</h2>
                 <div class="skills-content">
                     
                     <div class="skill-category">
@@ -349,7 +347,7 @@ Experiência</span>
         <!-- Seção Serviços -->
         <section id="service" class="section services">
             <div class="container">
-                <h2 class="section-title">O Que Eu Faço</h2>
+                <h2 class="section-title"><h2 class="section-title" data-i18n="services_title">O Que Eu Faço</h2></h2>
                 <div class="services-content">
                     <div class="services-grid">
                         <div class="service-card">
@@ -359,7 +357,7 @@ Experiência</span>
                             <h3>Desenvolvimento Web</h3>
                             <p>Eu crio sites modernos e responsivos usando as tecnologias mais recentes e as melhores práticas. Do conceito à implantação, garanto que seu site tenha uma ótima aparência e um desempenho perfeito.</p>
                             <div class="service-features">
-                                <span>Design Responsivo</span>
+                                <span>Design <span data-i18n="card_responsive">Responsivo</span></span>
                                 <span>Otimizado para Performance</span>
                                 <span>Amigável para SEO</span>
                             </div>
@@ -396,12 +394,12 @@ Experiência</span>
         <!-- Seção Projetos -->
         <section id="project" class="section projects">
             <div class="container">
-                <h2 class="section-title">Meus Projetos</h2>
+                <h2 class="section-title"><h2 class="section-title" data-i18n="projects_title">Meus Projetos</h2></h2>
                 <div class="projects-content">
                     <div class="projects-grid">
                         <div class="project-card">
                             <div class="project-image">
-                                <img src="images/e-commerce.jpg" alt="Projeto 1">
+                                <img src="images/Cleveroad.jpg" alt="Projeto 1">
                                 <div class="project-overlay">
                                     <div class="project-links">
                                         <a href="#" class="project-link">
@@ -425,7 +423,7 @@ Experiência</span>
                         </div>
                         <div class="project-card">
                             <div class="project-image">
-                                <img src="images/chat-app.jpg" alt="Projeto 2">
+                                <img src="images/Task manager app.jpg" alt="Projeto 2">
                                 <div class="project-overlay">
                                     <div class="project-links">
                                         <a href="#" class="project-link">
@@ -449,7 +447,7 @@ Experiência</span>
                         </div>
                         <div class="project-card">
                             <div class="project-image">
-                                <img src="images/weather-dashboard.jpg" alt="Projeto 3">
+                                <img src="images/Weather Forecast Dashboard.jpg" alt="Projeto 3">
                                 <div class="project-overlay">
                                     <div class="project-links">
                                         <a href="#" class="project-link">
@@ -550,79 +548,63 @@ Experiência</span>
         </section>
 
         <!-- Seção Contato -->
-        <section id="contact" class="section contact">
-            <div class="container">
-                <h2 class="section-title">Entre em Contato</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h3>Email</h3>
-                                <p>amine_codes@example.com</p>
-                                <a href="mailto:asep@example.com">Enviar Email</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h3>Telefone</h3>
-                                <p>+221 00 11 22 33 44</p>
-                                <a href="tel:+00 11 22 33 44">Ligar Agora</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h3>Localização</h3>
-                                <p>Boudouaou,Boumerdès,Argélia</p>
-                                <a href="#" target="_blank">Ver no Mapa</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fab fa-whatsapp"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h3>WhatsApp</h3>
-                                <p>+00 11 22 33 44</p>
-                                <a href="#" target="_blank">Enviar Mensagem</a>
-                            </div>
-                        </div>
+<section id="contact" class="section contact">
+    <div class="container">
+
+        <h2 class="section-title" data-i18n="contact_title">Entre em Contato</h2>
+
+        <div class="contact-content">
+            <div class="contact-info" id="contact-info-grid">
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
                     </div>
-                    <div class="contact-form">
-                        <form id="contactForm">
-                            <div class="form-group">
-                                <input type="text" id="name" name="name" required>
-                                <label for="name">Seu Nome</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" id="email" name="email" required>
-                                <label for="email">Seu Email</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" id="subject" name="subject" required>
-                                <label for="subject">Assunto</label>
-                            </div>
-                            <div class="form-group">
-                                <textarea id="message" name="message" rows="5" required></textarea>
-                                <label for="message">Sua Mensagem</label>
-                            </div>
-                            <button type="submit" class="submit-btn">
-                                <span>Enviar Mensagem</span>
-                                <i class="fas fa-paper-plane"></i>
-                            </button>
-                        </form>
+                    <div class="contact-details">
+                        <h3 data-i18n="contact_email_title">Email</h3>
+                        <p>amine_codes@example.com</p>
+                        <a href="mailto:asep@example.com" data-i18n="contact_email_action">Enviar Email</a>
                     </div>
                 </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3 data-i18n="contact_phone_title">Telefone</h3>
+                        <p>+221 00 11 22 33 44</p>
+                        <a href="tel:+0011223344" data-i18n="contact_phone_action">Ligar Agora</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3 data-i18n="contact_location_title">Localização</h3>
+                        <p>Boudouaou, Boumerdès, Argélia</p>
+                        <a href="#" target="_blank" data-i18n="contact_location_action">Ver no Mapa</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3 data-i18n="contact_whatsapp_title">WhatsApp</h3>
+                        <p>+00 11 22 33 44</p>
+                        <a href="#" target="_blank" data-i18n="contact_whatsapp_action">Enviar Mensagem</a>
+                    </div>
+                </div>
+
             </div>
-        </section>
+        </div>
+
+    </div>
+</section>
     </main>
 
     <script src="script.js"></script>

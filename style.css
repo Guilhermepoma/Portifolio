@@ -694,6 +694,7 @@ header.scrolled {
     font-weight: 600;
     cursor: pointer;
     transition: 0s;
+    text-decoration: none;
 }
 
 .about-btn:hover {
@@ -1085,12 +1086,17 @@ header.scrolled {
 }
 
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    max-width: 1400px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
+
+#contact-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: fit-content; /* impede de ficar gigante */
+}
+
 
 .contact-info {
     display: flex;
